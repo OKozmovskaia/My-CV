@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 5% 45% 50%;
+  background-color: #dbe4f0;
+}
+
+header {
+  margin: 20px;
+  background-image: url("photo O.Kozmovskaia.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  box-shadow: 2px 5px 6px black;
+  display: grid;
+  justify-items: center;
+  align-items: end;
+  
+}
+
+table {
+  margin-bottom: 30px;
+  border-spacing: 20px;
+  display: inline-block;
+  text-align: center;
+}
+
+
+
+#name {
+  color: white;
+  font-size: 40px;
+  -webkit-text-stroke: 1px white;
+  text-decoration: underline;
+}
+
+#specialization {
+  color: white;
+  font-size: 30px;
+  -webkit-text-stroke: 1px white;
+  /* text-decoration: underline; */
+}
+
+#skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3em;
+}
+
+nav {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+main {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  
+}
+
+h1 {
+  font-size: 50px;
+  padding-bottom: 15px;
+}
+
+#short-intro {
+  padding-bottom: 15px;
+  font-style: italic;
+  font-size: 20px;
+}
+
+main p, ul {
+  padding: 5px;
+  text-align: justify;
+}
+
+h2 {
+  font-size: 40px;
+  padding-bottom: 15px;
+}
+
+h4 {
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+i {
+  color: #4fe34f;
+  -webkit-text-stroke: white;
+}
+
+@media (max-width: 768px) {
+  body {
+  font-size: 15px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+header{
+background-image: none;
+background-color: #00b8e6;
+}
+}
+
+@media (max-width: 992px) {
+  body {
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+header{
+  background-size: 60%;
+  background-position: top;
+}
+}
+
