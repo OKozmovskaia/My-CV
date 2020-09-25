@@ -112,6 +112,9 @@ header{
 background-image: none;
 background-color: #00b8e6;
 }
+#skills {
+  grid-template-columns: 1fr;
+}
 }
 
 @media (max-width: 992px) {
