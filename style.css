@@ -112,8 +112,13 @@ i {
   grid-template-columns: 1fr;
 }
 header{
-background-image: none;
-background-color: #00e99b9d;
+/* background-image: none;
+background-color: #00e99b9d; */
+  /* background-size: 130%; */
+  /* background-repeat: repeat-x; */
+  /* background-position: center; */
+  /* border-radius: 50%; */
+  height: 950px;
 }
 #skills {
   grid-template-columns: 1fr;
