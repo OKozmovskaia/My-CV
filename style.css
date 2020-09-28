@@ -38,6 +38,7 @@ table {
   font-size: 40px;
   -webkit-text-stroke: 1px white;
   text-decoration: underline;
+  text-shadow: 1px 1px 4px black;
 }
 
 #specialization {
@@ -45,6 +46,7 @@ table {
   font-size: 30px;
   -webkit-text-stroke: 1px white;
   /* text-decoration: underline; */
+  text-shadow: 1px 1px 4px black;
 }
 
 #skills {
@@ -100,6 +102,7 @@ ul {
 i {
   color: #4fe34f;
   -webkit-text-stroke: white;
+  text-shadow: 1px 1px 2px grey;
 }
 
 @media (max-width: 768px) {
@@ -110,10 +113,13 @@ i {
 }
 header{
 background-image: none;
-background-color: #00b8e6;
+background-color: #00e99b9d;
 }
 #skills {
   grid-template-columns: 1fr;
+}
+i {
+  color: black;
 }
 }
 
@@ -124,7 +130,7 @@ background-color: #00b8e6;
   grid-template-columns: 1fr;
 }
 header{
-  background-size: 60%;
+  background-size: 200%;
   background-position: top;
 }
 }
